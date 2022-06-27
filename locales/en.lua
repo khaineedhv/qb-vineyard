@@ -1,29 +1,29 @@
 local Translations = {
     error = {
-        ["invalid_job"] = "I dont think I work here...",
+        ["invalid_job"] = "Tôi không nghĩ tôi làm việc ở đây...",
         ["invalid_items"] = "You do not have the correct items!",
-        ["no_items"] = "You do not have any items!",
+        ["no_items"] = "Bạn không có bất kỳ mặt hàng nào!",
     },
     progress = {
-        ["pick_grapes"] = "Picking Grapes ..",
-        ["process_grapes"] = "Processing Grapes ..",
+        ["pick_grapes"] = "Hái nho ..",
+        ["process_grapes"] = "Chế biến nho ..",
     },
     task = {
-        ["start_task"] = "[E] To Start",
+        ["start_task"] = "[E] Để bắt đầu",
         ["load_ingrediants"] = "[E] Load Ingredients",
         ["wine_process"] = "[E] Start WineProcess",
-        ["get_wine"] = "[E] Get Wine",
-        ["make_grape_juice"] = "[E] Make Grape Juice",
-        ["countdown"] = "Time Remaining %{time}s",
-        ['cancel_task'] = "You have cancelled the task"
+        ["get_wine"] = "[E] Nhận rượu",
+        ["make_grape_juice"] = "[E] Làm nước ép nho",
+        ["countdown"] = "Thời gian còn lại %{time}s",
+        ['cancel_task'] = "Bạn đã hủy nhiệm vụ"
     },
     text = {
-        ["start_shift"] = "You have started your shift at the vineyard!",
-        ["end_shift"] = "Your shift at the vineyard has ended!",
-        ["valid_zone"] = "Valid Zone!",
-        ["invalid_zone"] = "Invalid Zone!",
-        ["zone_entered"] = "%{zone} Zone Entered",
-        ["zone_exited"] = "%{zone} Zone Exited",
+        ["start_shift"] = "Bạn đã bắt đầu ca làm việc của mình tại vườn nho!",
+        ["end_shift"] = "Ca làm việc của bạn tại vườn nho đã kết thúc!",
+        ["valid_zone"] = "Vùng hợp lệ!",
+        ["invalid_zone"] = "Vùng không hợp lệ!",
+        ["zone_entered"] = "%{zone} Khu vực vào",
+        ["zone_exited"] = "%{zone} Khu vực thoát",
     }
 }
 Lang = Locale:new({phrases = Translations, warnOnMissing = true})
